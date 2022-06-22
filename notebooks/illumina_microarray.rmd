@@ -9,11 +9,38 @@ params:
 
 ## Results
 
-### Demo Chunks
+### Installing Packages
 ```{r}
 print("Hello")
 ```
 
+### Import Raw Data
 ```{r}
 print(params$test_value)
+```
+
+### QC On Raw Data
+```{r}
+print("We are doing QC!")
+```
+
+### Normalization of Raw Data
+```{r}
+print("we are Normalizaing!")
+```
+
+### QC Normalized Data
+```{r}
+print("We are doing QC on normalized Data!")
+```
+
+### Differential Gene Expression Analysis
+```{r}
+print("We are doing DGE!")
+```
+
+
+### Add Gene Annotations
+```{r}
+print("We are doing Gene Annotations!")
 ```
